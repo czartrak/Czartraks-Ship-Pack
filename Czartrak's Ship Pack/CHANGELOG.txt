@@ -1,0 +1,24 @@
+Czartrak's Ship Pack v. 1.6
+	*Revamped the GitHub Repository
+	*Made the changelog better (clearly)
+	*Added High DPI Images fpr every ship
+	*Fixed a couple of pricing errors (Navy Freighter, Navy Dreadnought)
+	*Changed up fleet spawn rates
+	*Fixed a typo that prevented Navy Dreadnoughts from spawning
+	*Slight modifications to author.txt
+	*Edited some descriptions
+	*Changed the Sentinel's name. Now know as the Guardian
+	*Changed the name of nearly every navy ship (minor change)
+	*Removed the Dreadnought announcement event
+	*Fixed the Battleship (Mark II) launcher placements
+	*Fixed the Navy Destroyer (Mark II) launcher placements
+	*Added parentheses to the Nesasio's Mark II cariant
+	*Guardian variants should now spawn
+	*Hid modifications.txt
+	
+Future Plans
+	*Three new Korathi ships
+	*Angled shipyard sprites for all ships (in preparation for Endless Sky version 0.9.9)
+	*Do something with the Patrol Boat
+	
+I'm always open to suggestions. If there's a bug, something you should be changed, or something you think should be added, please let me know on Steam or Discord

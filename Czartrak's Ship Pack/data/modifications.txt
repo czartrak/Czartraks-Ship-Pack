@@ -1,0 +1,24 @@
+#Ignore this file. This is for the WorldForge plugin
+
+shipyard modships
+	"Navy Battleship"
+	"Patrol Boat"
+	"Navy Battlecruiser"
+	"Navy Destroyer"
+	"Navy Freighter"
+	"Guardian"
+	"Pug Zambor"
+	"Pug Mazdar"
+	"Pug Emborbor"
+	"Korath Seedship"
+	"Qrow"
+	"Navy Dreadnought"
+	"Carrier"
+	
+	
+outfitter modoutfits
+	"Cryogenics Pod"
+	"AI Module"
+	"Listening Node"
+	"Recording Device"
+	"Scanner Decoy"
