@@ -1,6 +1,5 @@
 ship "Navy Battleship"
 	sprite "ship/battleshipncsp"
-	thumbnail "thumbnail/battleshipncsp"
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -56,6 +55,9 @@ ship "Navy Battleship"
 	turret -48 111 "Heavy Laser Turret"
 	turret 48 -64 "Heavy Laser Turret"
 	turret 48 111 "Heavy Laser Turret"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
 	explode "tiny explosion" 25
 	explode "small explosion" 50
 	explode "medium explosion" 53
@@ -117,6 +119,9 @@ ship "Navy Battlecruiser"
 	turret -28 80
 	engine -40 146
 	engine 40 146
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -173,6 +178,9 @@ ship "Navy Destroyer"
 	turret 28 47
 	engine -26.5 116
 	engine 26.5 116
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
@@ -215,6 +223,8 @@ ship "Patrol Boat"
 	engine 9 45
 	gun -24 -22 "Beam Laser"
 	gun 24 -22 "Beam Laser"
+	leak "leak" 50 50
+	leak "flame" 50 80
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
@@ -277,6 +287,8 @@ ship "Guardian"
 	gun -31 -45 "Heavy Rocket Launcher"
 	gun 31 -45 "Heavy Rocket Launcher"
 	turret -1 44 "Heavy Anti-Missile Turret" 
+	leak "leak" 60 50
+	leak "flame" 30 80
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
@@ -319,165 +331,131 @@ ship "Navy Freighter"
 		
 	engine -29 164
 	engine 29 164
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
 	explode "small explosion" 15
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "The Navy Freighter is a modified Cruiser, which has been made only to carry cargo. It has no weapons and carries no drones, so it relies completely on escorts for protection."
-	
-ship "Pug Zambor"
-	sprite "ship/pug_zambor"
-	attributes
-		category "Fighter"
-		"cost" 1300000
-		"shields" 2500
-		"hull" 670
-		"required crew" 1
-		"bunks" 2
-		"mass" 180
-		"drag" 2.3
-		"heat dissipation" 1.1
-		"fuel capacity" 0
-		"cargo space" 5
-		"outfit space" 180
-		"weapon capacity" 68
-		"engine capacity" 76
-		"energy generation" 10
-		"shield generation" 4
-		"shield energy" 4
-		"heat generation" 16
-		"energy capacity" 1000
-		weapon
-			"blast radius" 100
-			"shield damage" 400
-			"hull damage" 200
-			"hit force" 600
-	outfits
-		"Pug Zapper" 2
-		"Pug Biodefenses" 1
-		"Pug Akfar Thruster"
-		"Pug Akfar Steering"
-	engine -7 35
-	engine 7 35
-	gun -15 -42 "Pug Zapper"
-	gun 15 -42 "Pug Zapper"
-	explode "tiny explosion" 10
-	explode "small explosion" 15
-	explode "medium explosion" 20
-	explode "large explosion" 10
-	"final explode" "final explosion small"
-	description "The Zambor is a fairly new Fighter design from the Pug. It is essentially a smaller, weaker Zibruka that can be carried on a parent ship."
-	
-ship "Pug Mazdar"
-	sprite "ship/pug_mazdar"
-	attributes
-		category "Medium Warship"
-		"cost" 6500000
-		"shields" 6800
-		"hull" 1700
-		"required crew" 21
-		"bunks" 27
-		"mass" 410
-		"drag" 5.9
-		"heat dissipation" .7
-		"fuel capacity" 600
-		"cargo space" 40
-		"outfit space" 360
-		"weapon capacity" 184
-		"engine capacity" 106
-		"energy generation" 22
-		"shield generation" 8
-		"shield energy" 8
-		"heat generation" 32
-		"energy capacity" 2000
-		weapon
-			"blast radius" 180
-			"shield damage" 720
-			"hull damage" 360
-			"hit force" 1080
-	outfits
-		"Pug Zapper Turret"
-		"Pug Biodefenses" 6
-		"Jump Drive"
-		"Pug Cormet Thruster"
-		"Pug Cormet Steering"
-	engine -11 68
-	engine 11 68
-	fighter 0 -36 under
-	turret 0 7 "Pug Zapper Turret"
-	explode "tiny explosion" 5
-	explode "small explosion" 20
-	explode "medium explosion" 25
-	explode "large explosion" 15
-	"final explode" "final explosion medium"
-	description "This is a Pug Enfolta which has been modified to carry a fighter. However, to achieve this, the Pug had to remove the ship's guns."
-	
-ship "Pug Embor"
-	sprite "ship/pug_embor"
+
+ship "Pug Yubera"
+	sprite "ship/pug_carrier"
+	thumbnail "ship/pug_carrier"
 	attributes
 		category "Heavy Warship"
-		"cost" 11000000
+		"cost" 9500000
 		"shields" 12600
 		"hull" 2700
-		"required crew" 61
+		"required crew" 54
 		"bunks" 87
 		"mass" 940
 		"drag" 9.8
-		"heat dissipation" .5
+		"heat dissipation" .6
 		"fuel capacity" 600
 		"cargo space" 70
 		"outfit space" 560
 		"weapon capacity" 309
 		"engine capacity" 148
+		"energy capacity" 4000
 		"energy generation" 32
+		"heat generation" 48
 		"shield generation" 10
 		"shield energy" 10
-		"heat generation" 48
-		"energy capacity" 4000
 		weapon
 			"blast radius" 300
 			"shield damage" 1200
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		"Pug Seeker" 2
-		"Pug Zapper Turret"
-		"Pug Anti-Missile" 2
+		"Pug Seeker" 4
+		"Pug Zapper Turret" 2
+		"Pug Anti-Missile"
 		"Pug Biodefenses" 8
-		"Jump Drive"
 		"Pug Lohmar Thruster"
 		"Pug Lohmar Steering"
-	engine -20 136
-	engine 20 136
+		"Jump Drive"
+	
+	engine -30.5 120.5 0.3
+	engine -12 125 0.5
+	engine 12 125 0.5
+	engine 30.5 120.5 0.3
+	gun -20 -150 "Pug Seeker"
+	gun 20 -150 "Pug Seeker"
 	gun -10 -150 "Pug Seeker"
 	gun 10 -150 "Pug Seeker"
-	turret 0 -50 "Pug Zapper Turret"
-	turret -15 -35 "Pug Anti-Missile"
-	turret 15 -35 "Pug Anti-Missile"
-	fighter 71 -32.5 under
-	fighter -71 -32.5 under
-	explode "small explosion" 25
-	explode "medium explosion" 30
-	explode "large explosion" 20
-	explode "huge explosion" 5
+	turret 0 -50 "Pug Anti-Missile"
+	turret -15 -35 "Pug Zapper Turret"
+	turret 15 -35 "Pug Zapper Turret"
+	explode "pug small explosion" 25
+	explode "pug medium explosion" 30
+	explode "pug large explosion" 20
+	explode "pug huge explosion" 5
+	fighter 88 -14 under
+	fighter -88 -16.5 under
+	fighter -55 -4.5 under
+	fighter 55 -7.5 under
+	fighter 0 -9.5 over
+	fighter 0 20.5 under
 	"final explode" "final explosion large"
-	description "This ship is a modifed Maboro. The Pug made this ship to carry two Zambor fighters."
+	description "The Pug Yubera is a heavy carrier made by the Pug. It is capable of carrying six Zambor fighters."
+
+ship "Pug Zambor"
+	sprite "ship/pug_fighter"
+	attributes
+		category "Fighter"
+		"cost" 1300000
+		"shields" 1300
+		"hull" 500
+		"required crew" 2
+		"bunks" 2
+		"mass" 200
+		"drag" 3
+		"heat dissipation" .5
+		"fuel capacity" 0
+		"cargo space" 5
+		"outfit space" 93
+		"weapon capacity" 50
+		"engine capacity" 43
+		"energy generation" 7
+		"energy capacity" 1000
+		weapon
+			"blast radius" 75
+			"shield damage" 350
+			"hull damage" 175
+			"hit force" 500
+	outfits
+		"Pug Zapper" 2
+		"Pug Biodefenses" 1
+		"Pug Akfar Thruster"
+		"Pug Akfar Steering"
 	
+	engine 0 22 1.2
+	gun -14 -10 "Pug Zapper"
+	gun 14 -10 "Pug Zapper"
+	explode "tiny explosion" 10
+	explode "small explosion" 15
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	"final explode" "final explosion small"
+	description "The Pug Zambor is a fighter designed by the pug. These fighters are far more powerful than conventional fighters."
+
 ship "Korath Seedship"
 	sprite "ship/seedship"
 	attributes
 		category "Transport"
 		"cost" 16570000
-		"shields" 27000
-		"hull" 9000
+		"shields" 19000
+		"hull" 7200
 		"required crew" 5
 		"bunks" 5
-		"mass" 720
-		"drag" 12
-		"heat dissipation" .5
-		"cryo bay" -500
-		"cryo pod" 500
+		"mass" 680
+		"drag" 11
+		"heat dissipation" .6
+		"cryo bay" -200
+		"cryo pod" 200
 		"ramscoop" 2.5
 		"outfit scan power" 20
 		"outfit scan speed" 1.5
@@ -486,9 +464,10 @@ ship "Korath Seedship"
 		"atmosphere scan" 150
 		"fuel capacity" 600
 		"cargo space" 250
-		"outfit space" 980
+		"outfit space" 680
 		"weapon capacity" 60
 		"engine capacity" 130
+		"self destruct" .5
 		weapon
 			"blast radius" 250
 			"shield damage" 3600
@@ -502,7 +481,7 @@ ship "Korath Seedship"
 		"Large Heat Shunt" 2
 		"Small Heat Shunt"
 		"Korath Repeater Rifle" 5
-		"Cryogenics Pod" 500
+		"Cryogenics Pod" 200
 		
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
@@ -518,8 +497,8 @@ ship "Korath Seedship"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Korath Seedship was originally built as a colonization vessel. It is controlled mainly by AI  but has bunk space enough for a crew of 5. The things that make this ship special are the integreted scanners, ramscoop systems, and a Cryogenics Bay. The Cryo Bay can hold up to 500 colonists."
-	description "Korathi colonization efforts have slowed to a near halt, so nowadays the remaining Seedships are used as makeshift reconnasaince vessels and dropships."
+	description "The Korath Seedship was originally built as a colonization vessel. It is controlled mainly by AI  but has bunk space enough for a crew of 5. The things that make this ship special are the integreted scanners, ramscoop systems, and a Cryogenics Bay. The Cryo Bay can hold up to 200 colonists."
+	description "Korathi colonization efforts have slowed to a near halt, so nowadays the remaining Seedships are used as makeshift reconnaisance vessels and dropships."
 
 ship "Qrow"
 	sprite "ship/qrow"
@@ -563,6 +542,8 @@ ship "Qrow"
 	turret -18 0 "Heavy Laser Turret"
 	turret 18 0 "Heavy Laser Turret"
 	turret 0 5 "Heavy Laser Turret"
+	leak "leak" 50 50
+	leak "flame" 70 80
 	explode "tiny explosion" 15
 	explode "small explosion" 34
 	explode "medium explosion" 18
@@ -689,6 +670,9 @@ ship "Nest D"
 	turret 18 75 "Quad Blaster Turret"
 	drone -47 12 under
 	drone 47 12 under
+	leak "leak" 60 50
+	leak "flame" 40 80
+	leak "big leak" 80 30
 	explode "tiny explosion" 20
 	explode "small explosion" 35
 	explode "medium explosion" 20
@@ -745,6 +729,9 @@ ship "Roost D"
 	drone 47 -24 under
 	drone -47 50 under
 	drone 47 50 under
+	leak "leak" 50 50
+	leak "flame" 40 80
+	leak "big leak" 80 30
 	explode "tiny explosion" 10
 	explode "small explosion" 25
 	explode "medium explosion" 30
@@ -805,6 +792,9 @@ ship "Skein D"
 	drone 47 14 under
 	drone -47 88 under
 	drone 47 88 under
+	leak "leak" 50 50
+	leak "flame" 40 80
+	leak "big leak" 70 30
 	explode "small explosion" 15
 	explode "medium explosion" 30
 	explode "large explosion" 20
@@ -868,6 +858,9 @@ ship "Nesasio"
 	engine -22 134.5
 	drone -63 58.5
 	drone 54 57
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
@@ -941,6 +934,9 @@ ship "Viscount"
 	engine -26 265.5
 	fighter 80 1.5
 	fighter -82.5 6.5
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
@@ -1002,6 +998,9 @@ ship "Navy Dreadnought"
 	gun -15.5 -173
 	engine -30 200
 	engine 30 200
+	leak "leak" 40 50
+	leak "flame" 20 80
+	leak "big leak" 80 30
 	explode "tiny explosion" 50
 	explode "small explosion" 50
 	explode "medium explosion" 50

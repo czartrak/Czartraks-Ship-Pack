@@ -12,13 +12,27 @@ Czartrak's Ship Pack v. 1.6
 	*Removed the Dreadnought announcement event
 	*Fixed the Battleship (Mark II) launcher placements
 	*Fixed the Navy Destroyer (Mark II) launcher placements
-	*Added parentheses to the Nesasio's Mark II cariant
+	*Added parentheses to the Nesasio's Mark II variant
 	*Guardian variants should now spawn
 	*Hid modifications.txt
 	
-Future Plans
-	*Three new Korathi ships
+	
+Czartrak's Ship Pack v. 1.7
+	*Nerfed the Zambor
+	*Tweaked the Pug fleets (geojak)
+	*Seedship nerfs/tweaks (geojak)
+	*Leak effects for most ships
+	*New Zambor sprite (BeccaBunny)
+	*New Pug Carrier, the Pug Yubera (BeccaBunny)
+	*deprecated.txt added to hold the old Zambor
+	*Deprecated the Embor and Mazdar
+
+
+	
+	Future Plans
+	*Three new Korathi ships (uncertain)
 	*Angled shipyard sprites for all ships (in preparation for Endless Sky version 0.9.9)
 	*Do something with the Patrol Boat
+	*A whole new alien faction, complete with systems, ships, and outfits
 	
 I'm always open to suggestions. If there's a bug, something you should be changed, or something you think should be added, please let me know on Steam or Discord

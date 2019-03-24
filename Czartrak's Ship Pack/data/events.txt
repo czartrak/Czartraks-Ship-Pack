@@ -35,7 +35,7 @@ event "Guardian add event"
 		add variant 2
 			"Guardian"
 		add variant 1
-			"Manta (Proton)"
+			"Manta (Particle)"
 			"Guardian"
 		add variant 1
 			"Manta" 

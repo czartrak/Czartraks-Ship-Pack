@@ -153,27 +153,25 @@ fleet "Small Pug"
 		"Pug Mazdar"
 		"Pug Zambor"
 	add variant 2
-		"Pug Mazdar" 2
-		"Pug Zambor" 2
+		"Pug Mazdar" 
+		"Pug Zambor" 
 		"Pug Zibruka"
 
 fleet "Large Pug"
 	add variant 1
-		"Pug Mazdar"
-		"Pug Zambor"
-		"Pug Zibruka" 2
-	add variant 2
-		"Pug Embor"
-		"Pug Zambor" 2
-	add variant 1
-		"Pug Embor"
-		"Pug Mazdar"
-		"Pug Zambor" 3
-		"Pug Zibruka"
-	add variant 1
-		"Pug Embor" 2
+		"Pug Yubera"
 		"Pug Enfolta" 2
-		"Pug Zambor" 4
+		"Pug Zambor" 6
+	add variant 1
+		"Pug Yubera"
+		"Pug Zibruka" 2
+		"Pug Enfolta"
+		"Pug Zambor" 6
+	add variant 1
+		"Pug Maboro"
+		"Pug Yubera"
+		"Pug Enfolta" 2
+		"Pug Zambor" 6
 		
 fleet "Small Free Worlds"
 	add variant 6
