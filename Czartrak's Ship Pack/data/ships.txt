@@ -382,10 +382,10 @@ ship "Pug Yubera"
 	engine -12 125 0.5
 	engine 12 125 0.5
 	engine 30.5 120.5 0.3
-	gun -20 -150 "Pug Seeker"
-	gun 20 -150 "Pug Seeker"
-	gun -10 -150 "Pug Seeker"
-	gun 10 -150 "Pug Seeker"
+	gun -20 -79 "Pug Seeker"
+	gun 20 -79 "Pug Seeker"
+	gun -10 -94 "Pug Seeker"
+	gun 10 -94 "Pug Seeker"
 	turret 0 -50 "Pug Anti-Missile"
 	turret -15 -35 "Pug Zapper Turret"
 	turret 15 -35 "Pug Zapper Turret"
@@ -417,8 +417,8 @@ ship "Pug Zambor"
 		"fuel capacity" 0
 		"cargo space" 5
 		"outfit space" 93
-		"weapon capacity" 50
-		"engine capacity" 43
+		"weapon capacity" 83
+		"engine capacity" 76
 		"energy generation" 7
 		"energy capacity" 1000
 		weapon
