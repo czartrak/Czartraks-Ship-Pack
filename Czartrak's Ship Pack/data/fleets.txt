@@ -40,13 +40,13 @@ fleet "Large Syndicate"
 		"Guardian" 2
 	add variant 3
 		"Vanguard"
-		"Guardian (Proton)"
+		"Guardian"
 	add variant 2
 		"Vanguard"
 		"Quicksilver (Proton)" 2
-		"Guardian (Proton)"
+		"Guardian"
 	add variant 2
-		"Guardian (Proton)" 2
+		"Guardian" 2
 	add variant 3
 		"Vanguard"
 		"Guardian (Plasma)"
@@ -64,7 +64,7 @@ fleet "Small Republic"
 		"Patrol Boat"
 	add variant 4
 		"Frigate"
-		"Patrol Boat 2"
+		"Patrol Boat" 2
 	add variant 6
 		"Gunboat"
 		"Patrol Boat"
@@ -85,7 +85,7 @@ fleet "Republic Freight"
 		"Frigate" 2
 		"Rainmaker" 3
 		"Gunboat" 2
-		"Navy Frieghter"
+		"Navy Freighter"
 	variant 3
 		"Cruiser" 2
 		"Combat Drone" 8

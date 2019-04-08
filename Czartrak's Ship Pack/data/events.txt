@@ -30,7 +30,7 @@ mission "unlock mark ii mod ships"
 		event "navy using mark ii mod ships" 30
 		fail
 
-event "Guardian add event"
+event "guardian add event"
 	fleet "Large Syndicate"
 		add variant 2
 			"Guardian"
@@ -124,7 +124,7 @@ event "southern mod carriers 3"
 			"Nest D"
 			"Bee" 2
 
-event "southern carriers mod 4"
+event "southern mod carriers 4"
 	fleet "Large Independent"
 		fighters "free worlds fighter"
 		add variant 2
