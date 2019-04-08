@@ -86,7 +86,7 @@ ship "Navy Destroyer" "Navy Destroyer (Mark II)"
 		"Sidewinder Missile" 100
 	engine -26.5 116 1
 	engine 26.5 116 1
-	gun 25 -53"Sidewinder Missile Launcher"
+	gun 25 -53 "Sidewinder Missile Launcher"
 	gun 29 -49 
 	gun -25 -53 "Sidewinder Missile Launcher"
 	gun -29 -49
