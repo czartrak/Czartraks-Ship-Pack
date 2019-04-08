@@ -23,6 +23,11 @@ person "Brick"
 			"outfit space" 1900
 			"weapon capacity" 970
 			"engine capacity" 170
+			weapon
+				"blast radius" 250
+				"shield damage" 2400
+				"hull damage" 1200
+				"hit force" 2100
 		outfits
 			"Large Repair Module" 2
 			Hyperdrive
