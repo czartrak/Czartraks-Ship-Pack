@@ -15,8 +15,8 @@ ship "Navy Battleship"
 		"heat dissipation" .37
 		"fuel capacity" 600
 		"cargo space" 90
-		"outfit space" 950
-		"weapon capacity" 460
+		"outfit space" 1129
+		"weapon capacity" 542
 		"engine capacity" 210
 		weapon
 			"blast radius" 350
@@ -286,7 +286,7 @@ ship "Guardian"
 	gun 21 -45 "Heavy Rocket Launcher"
 	gun -31 -45 "Heavy Rocket Launcher"
 	gun 31 -45 "Heavy Rocket Launcher"
-	turret -1 44 "Heavy Anti-Missile Turret" 
+	turret -1 44 "Anti-Missile Turret" 
 	leak "leak" 60 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
@@ -416,7 +416,7 @@ ship "Pug Zambor"
 		"heat dissipation" .5
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 93
+		"outfit space" 126
 		"weapon capacity" 83
 		"engine capacity" 76
 		"energy generation" 7
