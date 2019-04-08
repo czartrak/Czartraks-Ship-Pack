@@ -553,10 +553,10 @@ ship "Qrow"
 	
 ship "Bee"
 	sprite "ship/combat drone"
-	licenses
-		"Militia Carrier"
 	attributes
 		category "Drone"
+		licenses
+			"Militia Carrier"
 		"cost" 75000
 		"hull" 650
 		"mass" 20
@@ -588,10 +588,10 @@ ship "Bee"
 	
 ship "Mockingjay"
 	sprite "ship/surveillance drone"
-	licenses
-		"Militia Carrier"
 	attributes
 		category "Drone"
+		licenses
+			"Militia Carrier"
 		"cost" 45000
 		"hull" 250
 		"mass" 15
@@ -741,10 +741,10 @@ ship "Roost D"
 	
 ship "Skein D"
 	sprite "ship/skein"
-	licenses
-		"Militia Carrier"
 	attributes
 		category "Medium Warship"
+		licenses
+			"Militia Carrier"
 		"cost" 3500000
 		"shields" 3300
 		"hull" 6700
