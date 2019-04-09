@@ -12,9 +12,9 @@ ship "Pug Zambor [OLD]"
 		"heat dissipation" .5
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 93
+		"outfit space" 126
 		"weapon capacity" 50
-		"engine capacity" 43
+		"engine capacity" 76
 		"energy generation" 7
 		"energy capacity" 1000
 		weapon
