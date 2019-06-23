@@ -15,8 +15,8 @@ ship "Navy Battleship"
 		"heat dissipation" .37
 		"fuel capacity" 600
 		"cargo space" 90
-		"outfit space" 1129
-		"weapon capacity" 542
+		"outfit space" 950
+		"weapon capacity" 460
 		"engine capacity" 210
 		weapon
 			"blast radius" 350
@@ -286,7 +286,7 @@ ship "Guardian"
 	gun 21 -45 "Heavy Rocket Launcher"
 	gun -31 -45 "Heavy Rocket Launcher"
 	gun 31 -45 "Heavy Rocket Launcher"
-	turret -1 44 "Anti-Missile Turret" 
+	turret -1 44 "Heavy Anti-Missile Turret" 
 	leak "leak" 60 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
@@ -416,7 +416,7 @@ ship "Pug Zambor"
 		"heat dissipation" .5
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 126
+		"outfit space" 93
 		"weapon capacity" 83
 		"engine capacity" 76
 		"energy generation" 7
@@ -553,10 +553,10 @@ ship "Qrow"
 	
 ship "Bee"
 	sprite "ship/combat drone"
+	licenses
+		"Militia Carrier"
 	attributes
 		category "Drone"
-		licenses
-			"Militia Carrier"
 		"cost" 75000
 		"hull" 650
 		"mass" 20
@@ -588,16 +588,16 @@ ship "Bee"
 	
 ship "Mockingjay"
 	sprite "ship/surveillance drone"
+	licenses
+		"Militia Carrier"
 	attributes
 		category "Drone"
-		licenses
-			"Militia Carrier"
 		"cost" 45000
 		"hull" 250
 		"mass" 15
 		"drag" .53
 		"heat dissipation" .9
-		"outfit space" 54
+		"outfit space" 55
 		"weapon capacity" 0
 		"engine capacity" 28
 		"automaton" 1
@@ -608,11 +608,7 @@ ship "Mockingjay"
 			"hit force" 45
 	outfits
 		"nGVF-AA Fuel Cell"
-		"Cargo Scanner"
-		"Outfit Scanner"
-		"Listening Node"
-		"Recording Device"
-		"Scanner Decoy"
+		"Espionage Module"
 		
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
@@ -741,10 +737,10 @@ ship "Roost D"
 	
 ship "Skein D"
 	sprite "ship/skein"
+	licenses
+		"Militia Carrier"
 	attributes
 		category "Medium Warship"
-		licenses
-			"Militia Carrier"
 		"cost" 3500000
 		"shields" 3300
 		"hull" 6700
@@ -1008,4 +1004,63 @@ ship "Navy Dreadnought"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "The Navy Dreadnought is the newest ship produced by the Navy. they are built to compete with the Free World's Dreadnoughts. This ship carries 6 Electron Turrets and 4 Sidewinder launchers."
+	
+ship "Palisade"
+	sprite "ship/vantector"
+	attributes
+		category "Heavy Warship"
+		"cost" 9600000
+		"shields" 1000
+		"hull" 8200
+		"required crew" 44
+		"bunks" 52
+		"mass" 500
+		"drag" 11
+		"heat dissipation" .4
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 745
+		"weapon capacity" 375
+		"engine capacity" 140
+		weapon
+			"blast radius" 180
+			"shield damage" 2000
+			"hull damage" 1200
+			"hit force" 2600
+	outfits
+		"Quad Blaster Turret" 6
+		"Proton Gun" 7
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Small Radar Jammer" 3
+		"Liquid Nitrogen Cooler"
+		"Water Coolant System"
+		
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -13 132
+	engine 17 132
+	gun -22 -51 "Proton Gun"
+	gun -22 -52 "Proton Gun"
+	gun 24 -52 "Proton Gun"
+	gun 33.5 -52 "Proton Gun"
+	gun 2 -138 "Proton Gun"
+	gun 24 -128 "Proton Gun"
+	gun -24 -128 "Proton Gun"
+	turret 75 -61 "Quad Blaster Turret"
+	turret 105 11 "Quad Blaster Turret"
+	turret 75 83 "Quad Blaster Turret"
+	turret -71 83 "Quad Blaster Turret"
+	turret -105 11 "Quad Blaster Turret"
+	turret -71 -61 "Quad Blaster Turret"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description `The Palisade robbed the Protector of the title "ugliest starship in the sky". Essentially a Protector and a Vanguard mashed into one, this ship can prove to be a powerful combat vessel.`
 

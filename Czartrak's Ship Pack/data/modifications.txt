@@ -16,9 +16,13 @@ shipyard modships
 	"Qrow"
 	"Navy Dreadnought"
 	"Carrier"
+	"Palisade"
+	"Mockingjay"
+	"Skein D"
 	
 	
 outfitter modoutfits
+	"Espionage Module"
 	"Cryogenics Pod"
 	"AI Module"
 	"Listening Node"

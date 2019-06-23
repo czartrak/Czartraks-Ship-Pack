@@ -12,9 +12,9 @@ ship "Pug Zambor [OLD]"
 		"heat dissipation" .5
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 126
+		"outfit space" 93
 		"weapon capacity" 50
-		"engine capacity" 76
+		"engine capacity" 43
 		"energy generation" 7
 		"energy capacity" 1000
 		weapon
@@ -132,3 +132,30 @@ ship "Pug Embor"
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
 	description "This ship is a modifed Maboro. The Pug made this ship to carry two Zambor fighters."
+	
+outfit "Listening Node"
+	category "Systems"
+	cost "7000"
+	thumbnail "outfit/control transceiver"
+	"mass" 2
+	"outfit space" -1
+	description "This is special equipment for Free World Mockingjays. This node has the ability to listen in on fleet transmissions, and record whatever it's listening to."
+	description "[LORE ITEM]"
+	
+outfit "Recording Device"
+	category "Systems"
+	cost "7000"
+	thumbnail "outfit/reasoning node"
+	"mass" 2
+	"outfit space" -1
+	description "This is another peice of FW equipment for their Mockingjays. This little device records fleet activities and transmits the data to a Free Worlds headquarters. These are a great bother to the Navy, as they can't tell their drones apart from Mockingjays."
+	description "[LORE ITEM]"
+	
+outfit "Scanner Decoy"
+	category "Systems"
+	cost "7000"
+	thumbnail "outfit/small reactor module"
+	"mass" 2
+	"outfit space" -1
+	description "One of the most importants pieces of tech a Mockingjay uses is this. A Free Worlds developed signal cloak. This changes the drone's IFF signals to give off Republic frequencies, making mockingjays the sneakiest spy drones money can buy."
+	description "[LORE ITEM]"

@@ -27,10 +27,15 @@ Czartrak's Ship Pack v. 1.7
 	*deprecated.txt added to hold the old Zambor
 	*Deprecated the Embor and Mazdar
 
+Czartrak's Ship Pack v. 1.7.3
+	*New Syndicate Warship - Palisade
+	*Replaced Listening Node, Scanner Decoy, and Recording Device with Espionage Module
+	*Deprecated the above outfits
 
 	
 	Future Plans
-	*Three new Korathi ships (uncertain)
+	*Give the Free Worlds drones and drone carriers proper fleets
+	*Add the sprites for the Espionage Module, Cryo Pod, and AI Core
 	*Angled shipyard sprites for all ships (in preparation for Endless Sky version 0.9.9)
 	*Do something with the Patrol Boat
 	*A whole new alien faction, complete with systems, ships, and outfits

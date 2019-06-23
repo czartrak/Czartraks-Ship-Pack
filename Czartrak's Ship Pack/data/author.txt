@@ -8,8 +8,6 @@ person "Brick"
 		word
 			"I hope you're enjoying the mod!"
 	ship Monstrosity
-
-ship Monstrosity
 	attributes
 		category "Heavy Warship"
 		"cost" 124000000
