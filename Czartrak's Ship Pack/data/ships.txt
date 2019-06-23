@@ -1038,8 +1038,8 @@ ship "Palisade"
 		"Liquid Nitrogen Cooler"
 		"Water Coolant System"
 		
-		"X3700 Ion Thruster"
-		"X4200 Ion Steering"
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
 		"Hyperdrive"
 		
 	engine -13 132
