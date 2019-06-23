@@ -56,6 +56,16 @@ fleet "Large Syndicate"
 		"Guardian (Plasma)"
 	add variant 2
 		"Guardian (Plasma)" 2
+	add variant 1
+		"Palisade"
+		"Guardian"
+	add variant 1
+		"Palisade"
+		"Vanguard" 2
+	add variant 1
+		"Palisade"
+		"Guardian"
+		"Quicksilver" 2
 		
 fleet "Small Republic"
 	add variant 5

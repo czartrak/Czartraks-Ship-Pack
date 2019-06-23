@@ -15,5 +15,8 @@ shipyard "Navy Basic"
 shipyard "Southbound Advanced"
 	"Qrow"
 
+shipyard "Syndicate Advanced"
+	"Palisade"
+
 
 	
