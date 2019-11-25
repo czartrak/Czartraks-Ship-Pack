@@ -549,7 +549,7 @@ ship "Qrow"
 	explode "medium explosion" 18
 	explode "large explosion" 2
 	"final explode" "final explosion small"
-	description "The Qrow is a modifed Tarazed Blackbird. It rumored to ahve been created by a rougue Tarazed engineer who was on the verge of being fired. Apparently he liked watching anime more than doing his job."
+	description "The Qrow is a modifed Tarazed Blackbird. It rumored to have been created by a rogue Tarazed engineer who was on the verge of being fired. Apparently he liked watching anime more than doing his job."
 	
 ship "Bee"
 	sprite "ship/combat drone"
@@ -584,7 +584,7 @@ ship "Bee"
 	engine 9 29
 	gun 0 -29 "Beam Laser"
 	explode "tiny explosion" 15
-	description "Bees are the Free Worlds versions of Combat Drones. Very similar to Navy drones, they are slightly weaker."
+	description "Bees are the Free Worlds versions of Combat Drones. Very similar to Navy Combat Drones, they are slightly weaker."
 	
 ship "Mockingjay"
 	sprite "ship/surveillance drone"
