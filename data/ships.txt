@@ -234,7 +234,7 @@ ship "Patrol Boat"
 	description "The Patrol Boat is a modified Navy Gunboat. It has been slimmed down, the original hull materials replaced with lighter (but weaker) ones, and the weapons scaled down considerably. This ship is made for speed, and for quick surveys of other ships."
 	
 ship "Guardian"
-	sprite "ship/pointedstick_vanguard"
+	sprite "ship/pointedstick vanguard"
 	attributes
 		category "Heavy Warship"
 		"cost" 8200000
