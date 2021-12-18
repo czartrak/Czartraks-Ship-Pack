@@ -1018,7 +1018,7 @@ ship "Palisade"
 	attributes
 		category "Heavy Warship"
 		"cost" 9600000
-		"shields" 1000
+		"shields" 10000
 		"hull" 8200
 		"required crew" 44
 		"bunks" 52
