@@ -97,6 +97,3 @@ person "Brick"
 
 shipyard modships
 	"Monstrosity"
-
-shipyard "human plugins"
-	"Monstrosity"
