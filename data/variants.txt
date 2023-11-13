@@ -35,41 +35,7 @@ ship "Navy Battleship" "Navy Battleship (Mark II)"
 	turret -48 111 "Electron Turret"
 	turret 48 -64 "Electron Turret"
 	turret 48 111 "Electron Turret"
-	
-ship "Navy Battlecruiser" "Navy Battlecruiser (Mark II)"
-	attributes
-	outfits
-		Hyperdrive
-		"Outfits Expansion" 2
-		"A375 Atomic Steering"
-		"Electron Turret" 5
-		"A520 Atomic Thruster"
-		"D94-YV Shield Generator"
-		"Liquid Helium Cooler"
-		"Meteor Missile Launcher" 2
-		"Armageddon Core"
-		"Heavy Anti-Missile Turret" 2
-		"Meteor Missile" 106
-		"Water Coolant System"
-		"LP036a Battery Pack"
-		"Large Radar Jammer"
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 175
-		"Sidewinder Missile Rack" 3
-		"Meteor Missile Box" 2
-	engine -40 146 1
-	engine 40 146 1
-	gun 28 -84 "Meteor Missile Launcher"
-	gun 38 -75 "Sidewinder Missile Launcher"
-	gun -28 -84 "Sidewinder Missile Launcher"
-	gun -38 -75 "Meteor Missile Launcher"
-	turret -33 -45 "Heavy Anti-Missile Turret"
-	turret 33 -45 "Heavy Anti-Missile Turret"
-	turret -0 0 "Electron Turret"
-	turret 0 44 "Electron Turret"
-	turret 0 80 "Electron Turret"
-	turret 28 80 "Electron Turret"
-	turret -28 80 "Electron Turret"
+
 	
 ship "Navy Destroyer" "Navy Destroyer (Mark II)"
 	outfits
@@ -85,7 +51,7 @@ ship "Navy Destroyer" "Navy Destroyer (Mark II)"
 		"Sidewinder Missile" 100
 	engine -26.5 116 1
 	engine 26.5 116 1
-	gun 25 -53"Sidewinder Missile Launcher"
+	gun 25 -53 "Sidewinder Missile Launcher"
 	gun 29 -49 
 	gun -25 -53 "Sidewinder Missile Launcher"
 	gun -29 -49

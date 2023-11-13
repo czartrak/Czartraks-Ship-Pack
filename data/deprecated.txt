@@ -13,8 +13,8 @@ ship "Pug Zambor [OLD]"
 		"fuel capacity" 0
 		"cargo space" 5
 		"outfit space" 93
-		"weapon capacity" 50
-		"engine capacity" 43
+		"weapon capacity" 90
+		"engine capacity" 80
 		"energy generation" 7
 		"energy capacity" 1000
 		weapon
@@ -133,12 +133,12 @@ ship "Pug Embor"
 	"final explode" "final explosion large"
 	description "This ship is a modifed Maboro. The Pug made this ship to carry two Zambor fighters."
 	
-ship "Patrol Boat [DEPRECATED]"
+ship "Patrol Boat"
 	sprite "ship/patroller"
-	licenses
-		Navy
 	attributes
 		category "Light Warship"
+		licenses
+			Navy
 		cost 2700000
 		bunks 9
 		"cargo space" 30
@@ -177,6 +177,90 @@ ship "Patrol Boat [DEPRECATED]"
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
 	description "The Patrol Boat is a modified Navy Gunboat. It has been slimmed down, the original hull materials replaced with lighter (but weaker) ones, and the weapons scaled down considerably. This ship is made for speed, and for quick surveys of other ships."
+	description "[DEPRECATED] This ship has been removed from the mod in most capacities. I have left it in the files as to not break any player's fleets"
+	
+ship "Navy Freighter"
+	sprite "ship/nfreighter"
+	attributes
+		category "Heavy Freighter"
+		licenses
+			Navy
+		"cost" 10100000
+		"shields" 6230
+		"hull" 8200
+		"required crew" 12
+		"bunks" 20
+		"mass" 680
+		"drag" 15.8
+		"heat dissipation" .5
+		"fuel capacity" 700
+		"cargo space" 850
+		"outfit space" 230
+		"weapon capacity" 0
+		"engine capacity" 90
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Water Coolant System"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -29 164
+	engine 29 164
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Navy Freighter is a modified Cruiser, which has been made only to carry cargo. It has no weapons and carries no drones, so it relies completely on escorts for protection."
+	description "[DEPRECATED] This ship has been removed from the mod in most capacities. I have left it in the files as to not break any player's fleets"
+	
+ship "Navy Battlecruiser" "Navy Battlecruiser (Mark II) [OLD]"
+	attributes
+	outfits
+		Hyperdrive
+		"Outfits Expansion" 2
+		"A375 Atomic Steering"
+		"Electron Turret" 5
+		"A520 Atomic Thruster"
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+		"Meteor Missile Launcher" 2
+		"Armageddon Core"
+		"Heavy Anti-Missile Turret" 2
+		"Meteor Missile" 106
+		"Water Coolant System"
+		"LP036a Battery Pack"
+		"Large Radar Jammer"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 175
+		"Sidewinder Missile Rack" 3
+		"Meteor Missile Box" 2
+	engine -40 146 1
+	engine 40 146 1
+	gun 28 -84 "Meteor Missile Launcher"
+	gun 38 -75 "Sidewinder Missile Launcher"
+	gun -28 -84 "Sidewinder Missile Launcher"
+	gun -38 -75 "Meteor Missile Launcher"
+	turret -33 -45 "Heavy Anti-Missile Turret"
+	turret 33 -45 "Heavy Anti-Missile Turret"
+	turret -0 0 "Electron Turret"
+	turret 0 44 "Electron Turret"
+	turret 0 80 "Electron Turret"
+	turret 28 80 "Electron Turret"
+	turret -28 80 "Electron Turret"
 	
 outfit "Listening Node"
 	category "Systems"
