@@ -15,8 +15,8 @@ ship "Navy Battleship"
 		"heat dissipation" .37
 		"fuel capacity" 600
 		"cargo space" 90
-		"outfit space" 950
-		"weapon capacity" 500
+		"outfit space" 995
+		"weapon capacity" 540
 		"engine capacity" 210
 		weapon
 			"blast radius" 350

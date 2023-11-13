@@ -227,40 +227,43 @@ ship "Navy Freighter"
 	description "The Navy Freighter is a modified Cruiser, which has been made only to carry cargo. It has no weapons and carries no drones, so it relies completely on escorts for protection."
 	description "[DEPRECATED] This ship has been removed from the mod in most capacities. I have left it in the files as to not break any player's fleets"
 	
-ship "Navy Battlecruiser" "Navy Battlecruiser (Mark II) [OLD]"
-	attributes
+ship "Navy Battleship" "Navy Battleship (Mark II) [OLD]"
 	outfits
 		Hyperdrive
-		"Outfits Expansion" 2
-		"A375 Atomic Steering"
-		"Electron Turret" 5
-		"A520 Atomic Thruster"
+		"A860 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Electron Turret" 6
 		"D94-YV Shield Generator"
-		"Liquid Helium Cooler"
-		"Meteor Missile Launcher" 2
-		"Armageddon Core"
-		"Heavy Anti-Missile Turret" 2
-		"Meteor Missile" 106
-		"Water Coolant System"
-		"LP036a Battery Pack"
 		"Large Radar Jammer"
+		"Laser Rifle" 209
+		"Liquid Helium Cooler"
+		"LP288a Battery Pack"
+		"D23-QP Shield Generator"
+		"Heavy Anti-Missile Turret" 4
+		"Fragmentation Grenades" 65
+		"Armageddon Core"
+		"Typhoon Launcher" 2
+		"Typhoon Torpedo" 90
 		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 175
-		"Sidewinder Missile Rack" 3
-		"Meteor Missile Box" 2
-	engine -40 146 1
-	engine 40 146 1
-	gun 28 -84 "Meteor Missile Launcher"
-	gun 38 -75 "Sidewinder Missile Launcher"
-	gun -28 -84 "Sidewinder Missile Launcher"
-	gun -38 -75 "Meteor Missile Launcher"
-	turret -33 -45 "Heavy Anti-Missile Turret"
-	turret 33 -45 "Heavy Anti-Missile Turret"
-	turret -0 0 "Electron Turret"
-	turret 0 44 "Electron Turret"
-	turret 0 80 "Electron Turret"
-	turret 28 80 "Electron Turret"
-	turret -28 80 "Electron Turret"
+		"Sidewinder Missile Rack" 2
+		"Sidewinder Missile" 150
+		"Typhoon Storage Tube" 2
+	engine -38 220 1
+	engine 38 220 1
+	gun -31 -200 "Typhoon Launcher"
+	gun 31 -200 "Typhoon Launcher"
+	gun -22 -209 "Sidewinder Missile Launcher"
+	gun 22 -209 "Sidewinder Missile Launcher"
+	turret 0 -104 "Heavy Anti-Missile Turret"
+	turret 0 27 "Heavy Anti-Missile Turret"
+	turret 45 23 "Electron Turret"
+	turret -45 23 "Electron Turret"
+	turret -13 153 "Heavy Anti-Missile Turret"
+	turret 13 153 "Heavy Anti-Missile Turret"
+	turret -48 -64 "Electron Turret"
+	turret -48 111 "Electron Turret"
+	turret 48 -64 "Electron Turret"
+	turret 48 111 "Electron Turret"
 	
 outfit "Listening Node"
 	category "Systems"
