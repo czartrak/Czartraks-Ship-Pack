@@ -12,7 +12,7 @@ ship "Pug Zambor [OLD]"
 		"heat dissipation" .5
 		"fuel capacity" 0
 		"cargo space" 5
-		"outfit space" 93
+		"outfit space" 130
 		"weapon capacity" 90
 		"engine capacity" 80
 		"energy generation" 7
@@ -228,6 +228,11 @@ ship "Navy Freighter"
 	description "[DEPRECATED] This ship has been removed from the mod in most capacities. I have left it in the files as to not break any player's fleets"
 	
 ship "Navy Battleship" "Navy Battleship (Mark II) [OLD]"
+	attributes
+		"outfit space" 1150
+		"weapon capacity" 600
+		"engine capacity" 350
+		"drag" 19.4
 	outfits
 		Hyperdrive
 		"A860 Atomic Thruster"
@@ -264,6 +269,7 @@ ship "Navy Battleship" "Navy Battleship (Mark II) [OLD]"
 	turret -48 111 "Electron Turret"
 	turret 48 -64 "Electron Turret"
 	turret 48 111 "Electron Turret"
+	description `Old version of the Battleship Mark II, kept for posterity. I have modified the outfit/weapons space so it will no longer throw errors
 	
 outfit "Listening Node"
 	category "Systems"

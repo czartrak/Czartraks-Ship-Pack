@@ -203,8 +203,8 @@ ship "Guardian"
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 50
-		"outfit space" 850
-		"weapon capacity" 330
+		"outfit space" 865
+		"weapon capacity" 350
 		"engine capacity" 205
 		weapon
 			"blast radius" 160
@@ -244,7 +244,7 @@ ship "Guardian"
 	gun 21 -45 "Heavy Rocket Launcher"
 	gun -31 -45 "Heavy Rocket Launcher"
 	gun 31 -45 "Heavy Rocket Launcher"
-	turret -1 44 "Heavy Anti-Missile Turret" 
+	turret -1 44 "Anti-Missile Turret" 
 	leak "leak" 60 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
@@ -731,7 +731,7 @@ ship "Nesasio"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 65
-		"outfit space" 530
+		"outfit space" 540
 		"weapon capacity" 180
 		"engine capacity" 152
 		"cloak" .03
@@ -874,7 +874,7 @@ ship "Navy Dreadnought"
 		"heat dissipation" .31
 		"fuel capacity" 500
 		"cargo space" 65
-		"outfit space" 865
+		"outfit space" 880
 		"weapon capacity" 410
 		"engine capacity" 155
 		weapon
