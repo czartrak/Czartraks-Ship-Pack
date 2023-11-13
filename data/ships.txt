@@ -785,7 +785,7 @@ ship "Nesasio"
 ship "Viscount"
 	sprite "ship/viscount"
 	attributes
-		category "Heavy Warship"
+		category "Superheavy"
 		licenses
 			Navy
 			"Navy Carrier"
